@@ -101,6 +101,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log(`Starting is up on port ${port}.`);
 });
